@@ -1,46 +1,192 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-<meta charset="utf-8">
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>ARAD X GAMER ESN</title>
 <style>
-*{box-sizing:border-box} body{margin:0;font-family:Tahoma,Arial,sans-serif;background:linear-gradient(135deg,#080b18,#15103a 55%,#071b2d);color:#fff;min-height:100vh}
-.wrap{max-width:1050px;margin:auto;padding:24px}
-nav{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;border:1px solid #ffffff20;background:#ffffff0d;backdrop-filter:blur(18px);border-radius:22px;position:sticky;top:12px;z-index:2}
-.logo{font-weight:900;letter-spacing:.5px}.links{display:flex;gap:18px}.links a{color:#ddd;text-decoration:none}
-.hero{margin-top:55px;padding:55px 30px;text-align:center;border:1px solid #ffffff22;background:#ffffff0b;backdrop-filter:blur(20px);border-radius:34px;box-shadow:0 25px 80px #0008}
-.badge{display:inline-block;padding:8px 14px;border-radius:999px;background:#ffffff12;border:1px solid #ffffff22;color:#bfc7ff}
-h1{font-size:clamp(42px,8vw,82px);margin:18px 0 10px;background:linear-gradient(90deg,#fff,#9d8cff,#68e4ff);color:transparent;background-clip:text}
-.hero p{font-size:19px;color:#cbd0e7;max-width:650px;margin:0 auto 28px;line-height:1.9}
-.btn{display:inline-block;text-decoration:none;color:#fff;padding:13px 24px;border-radius:15px;background:linear-gradient(90deg,#6c45ff,#00bce9);font-weight:bold}
-section{margin-top:55px} h2{font-size:30px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
-.card{padding:24px;border:1px solid #ffffff20;background:#ffffff0b;backdrop-filter:blur(16px);border-radius:24px}.icon{font-size:35px}.card p{color:#bfc5da;line-height:1.8}
-footer{text-align:center;color:#8e95ad;padding:45px 0 20px}
-@media(max-width:600px){.links{display:none}.hero{padding:42px 18px}h1{font-size:43px}}
+*{box-sizing:border-box}
+body{margin:0;font-family:Tahoma,Arial;background:linear-gradient(135deg,#070914,#17103b,#062033);color:white}
+nav{position:sticky;top:10px;margin:12px;padding:15px 20px;border:1px solid #ffffff25;background:#ffffff10;backdrop-filter:blur(15px);border-radius:20px;z-index:5}
+nav b{font-size:20px}.nav{float:left}.nav a{color:white;text-decoration:none;margin:8px}
+.wrap{max-width:1100px;margin:auto;padding:15px}
+.hero,.card{border:1px solid #ffffff20;background:#ffffff0d;backdrop-filter:blur(15px);border-radius:25px}
+.hero{text-align:center;padding:55px 20px;margin-top:25px}
+h1{font-size:clamp(40px,8vw,75px);margin:15px;background:linear-gradient(90deg,#fff,#a78bff,#54e7ff);color:transparent;background-clip:text}
+p{color:#cbd0e5;line-height:2}
+.btn,button{border:0;border-radius:14px;padding:12px 20px;background:linear-gradient(90deg,#714cff,#00bce9);color:white;font-weight:bold;cursor:pointer}
+section{margin-top:40px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{padding:22px}.icon{font-size:40px}
+input{width:100%;padding:13px;margin:8px 0;border:1px solid #ffffff22;border-radius:12px;background:#0005;color:white}
+.score{font-size:25px;color:#6ee7ff}
+#chat{height:180px;overflow:auto;background:#0004;border-radius:15px;padding:12px}
+.msg{padding:7px;border-bottom:1px solid #ffffff12}
+footer{text-align:center;padding:40px;color:#9299b2}
 </style>
 </head>
 <body>
+
+<nav>
+<b>🎮 ARAD X GAMER ESN</b>
+<span class="nav">
+<a href="#games">بازی‌ها</a>
+<a href="#profile">پروفایل</a>
+<a href="#tournaments">مسابقات</a>
+<a href="#chatbox">چت</a>
+</span>
+</nav>
+
 <div class="wrap">
-<nav><div class="logo">🎮 ARAD X GAMER ESN</div><div class="links"><a href="#home">خانه</a><a href="#games">بازی‌ها</a><a href="#tournaments">مسابقات</a></div></nav>
-<main id="home">
+
 <div class="hero">
-<span class="badge">دنیای گیم با ARAD X</span>
+<div>🔥 دنیای اختصاصی گیمرها</div>
 <h1>ARAD X GAMER ESN</h1>
-<p>مرکز اختصاصی بازی، رقابت و سرگرمی برای گیمرها.</p>
-<a class="btn" href="#games">شروع کنیم 🚀</a>
+<p>بازی کن، امتیاز بگیر و رکورد خودت رو بساز! 🚀</p>
+<a class="btn" href="#games">شروع بازی 🎮</a>
 </div>
-<section id="games"><h2>🎮 بازی‌ها</h2><div class="grid">
-<div class="card"><div class="icon">⚔️</div><h3>Valorant</h3><p>خبرها، رقابت‌ها و محتوای اختصاصی.</p></div>
-<div class="card"><div class="icon">🏎️</div><h3>Rocket League</h3><p>بازی‌های رقابتی و چالش‌های هیجان‌انگیز.</p></div>
-<div class="card"><div class="icon">🧱</div><h3>Minecraft</h3><p>ماجراجویی و ساخت‌وساز در دنیای گیم.</p></div>
-</div></section>
-<section id="tournaments"><h2>🏆 مسابقات</h2><div class="grid">
-<div class="card"><h3>مسابقه هفتگی</h3><p>برای رقابت و سرگرمی آماده شو.</p><a class="btn" href="#">اطلاعات بیشتر</a></div>
-<div class="card"><h3>رویدادهای ویژه</h3><p>رویدادهای جدید ARAD X را دنبال کن.</p><a class="btn" href="#">مشاهده رویدادها</a></div>
-</div></section>
-</main>
-<footer>© 2026 ARAD X GAMER ESN</footer>
+
+<section id="profile">
+<h2>👤 پروفایل گیمر</h2>
+<div class="card">
+<input id="name" placeholder="نام گیمرت را وارد کن">
+<button onclick="saveName()">ذخیره نام</button>
+<p>گیمر: <b id="player">مهمان</b></p>
+<p class="score">⭐ امتیاز: <span id="score">0</span></p>
+<p>🏆 برد: <span id="wins">0</span> | 🎮 بازی‌ها: <span id="games">0</span></p>
 </div>
+</section>
+
+<section id="games">
+<h2>🎮 بازی‌ها</h2>
+<div class="grid">
+
+<div class="card">
+<div class="icon">🔢</div><h3>حدس عدد</h3>
+<p>یک عدد بین ۱ تا ۱۰ حدس بزن.</p>
+<input id="guess" type="number" min="1" max="10">
+<button onclick="guessGame()">حدس بزن</button>
+<p id="guessResult"></p>
+</div>
+
+<div class="card">
+<div class="icon">✂️</div><h3>سنگ کاغذ قیچی</h3>
+<button onclick="rps('سنگ')">🪨</button>
+<button onclick="rps('کاغذ')">📄</button>
+<button onclick="rps('قیچی')">✂️</button>
+<p id="rpsResult"></p>
+</div>
+
+<div class="card">
+<div class="icon">🪙</div><h3>شیر یا خط</h3>
+<button onclick="coin()">پرتاب 🪙</button>
+<p id="coinResult"></p>
+</div>
+
+<div class="card">
+<div class="icon">⚡</div><h3>تست سرعت</h3>
+<button onclick="reaction()">شروع</button>
+<p id="reactionResult"></p>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2>🏆 جدول امتیازات</h2>
+<div class="card">
+<p>🥇 <b id="leader">هنوز رکوردی ثبت نشده</b></p>
+</div>
+</section>
+
+<section id="tournaments">
+<h2>🏆 مسابقات</h2>
+<div class="grid">
+<div class="card"><h3>🔥 مسابقه هفتگی</h3><p>برای رقابت‌های جدید آماده باش!</p></div>
+<div class="card"><h3>⚔️ ARAD X CUP</h3><p>رویداد ویژه گیمرها</p></div>
+<div class="card"><h3>🚀 چالش ویژه</h3><p>امتیاز جمع کن و رکورد بزن.</p></div>
+</div>
+</section>
+
+<section id="chatbox">
+<h2>💬 چت گیمرها</h2>
+<div class="card">
+<div id="chat"><div class="msg">🎮 به چت ARAD X خوش آمدی!</div></div>
+<input id="chatInput" placeholder="پیامت را بنویس...">
+<button onclick="sendChat()">ارسال 💬</button>
+</div>
+</section>
+
+<section>
+<h2>📺 ویدیوهای ARAD X</h2>
+<div class="card">
+<p>ویدیوهای ما در آپارات 👇</p>
+<a class="btn" href="https://www.aparat.com/v/olvts5i" target="_blank">▶️ تماشای ویدیو</a>
+<a class="btn" href="https://www.aparat.com/ARADXGAMER.ESN/short-videos" target="_blank">📺 ویدیوهای کوتاه</a>
+</div>
+</section>
+
+<footer>© 2026 ARAD X GAMER ESN 🎮</footer>
+</div>
+
+<script>
+let data=JSON.parse(localStorage.getItem("aradData")||'{"score":0,"wins":0,"games":0}');
+let player=localStorage.getItem("aradPlayer")||"مهمان";
+document.getElementById("player").textContent=player;
+document.getElementById("score").textContent=data.score;
+document.getElementById("wins").textContent=data.wins;
+document.getElementById("games").textContent=data.games;
+
+function save(){
+localStorage.setItem("aradData",JSON.stringify(data));
+document.getElementById("score").textContent=data.score;
+document.getElementById("wins").textContent=data.wins;
+document.getElementById("games").textContent=data.games;
+document.getElementById("leader").textContent=player+" — "+data.score+" امتیاز";
+}
+function saveName(){
+player=document.getElementById("name").value.trim()||"مهمان";
+localStorage.setItem("aradPlayer",player);
+document.getElementById("player").textContent=player;
+save();
+}
+function point(win=true){
+data.games++;
+if(win){data.wins++;data.score+=10}
+save();
+}
+function guessGame(){
+let n=Math.floor(Math.random()*10)+1;
+let g=Number(document.getElementById("guess").value);
+if(!g){document.getElementById("guessResult").textContent="یک عدد وارد کن!";return}
+if(g===n){document.getElementById("guessResult").textContent="🎉 درست گفتی! +10";point(true)}
+else{document.getElementById("guessResult").textContent="❌ عدد "+n+" بود.";point(false)}
+}
+function rps(x){
+let a=["سنگ","کاغذ","قیچی"],b=a[Math.floor(Math.random()*3)];
+let win=x===b?null:(x==="سنگ"&&b==="قیچی")||(x==="کاغذ"&&b==="سنگ")||(x==="قیچی"&&b==="کاغذ");
+document.getElementById("rpsResult").textContent=win===null?"🤝 مساوی شد":win?"🎉 بردی! +10":"😅 باختی";
+point(win);
+}
+function coin(){
+let x=Math.random()<.5?"شیر 🦁":"خط 🪙";
+document.getElementById("coinResult").textContent="نتیجه: "+x+"  +10";
+point(true);
+}
+function reaction(){
+let t=Date.now();
+document.getElementById("reactionResult").textContent="⏱️ صبر کن...";
+setTimeout(()=>{
+let ms=Date.now()-t;
+document.getElementById("reactionResult").textContent="⚡ "+ms+" میلی‌ثانیه! +10";
+point(true);
+},1000+Math.random()*2000);
+}
+function sendChat(){
+let x=document.getElementById("chatInput");
+if(!x.value.trim())return;
+document.getElementById("chat").innerHTML+="<div class='msg'>🎮 "+player+": "+x.value+"</div>";
+x.value="";
+}
+</script>
 </body>
 </html>
